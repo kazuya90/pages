@@ -7,7 +7,7 @@ function addButton() {
   element.append(button[0]);
 }
 
-function removeButton() {
+function removeButton3() {
   let element = document.getElementById("global_menu");
   let button = document.getElementsByTagName("li");
   button[button.length - 1].remove();
