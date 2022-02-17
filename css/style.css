@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/*foundation*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  color: #000;
+  background-color: aliceblue;
+}
+
+body h1 {
+  font-size: 20px;
+}
+
+/*テキストリンク*/
+a {
+  color: #0066c0;
+  text-decoration: underline;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*画像リンク*/
+a:hover img {
+  text-decoration: none;
+  opacity: 0.8;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+img,
+video,
+object {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  display: block;
+}
+
+li {
+  list-style-type: none;
+}
+
+/*layout*/
+header {
+  width: 100%;
+  background-color: #1b7c26;
+}
+
+main {
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+footer {
+  width: 100%;
+  background-color: #1b7c26;
+}
+
+/*object*/
+.c-global-menu {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #a0daa8;
+  max-width: 700px;
+}
+
+.c-global-menu__button {
+  background-color: #6ebe79;
+  width: 300px;
+  height: 100px;
+}
+
+.article-block {
+  background-color: #1b7c26;
+}
+
+.article-block__title_1 {
+  border-left: solid black 10px;
+  background-color: #ffc042;
+}
+
+.article-block__title_1__text {
+  color: #fff;
+}
+
+.article-block__paragraph {
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */

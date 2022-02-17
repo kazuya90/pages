@@ -2,33 +2,52 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="./css/base.css" type="text/css" />
-
+    <!-- link rel="stylesheet" href="css/style.css" type="text/css" -->
     <title>test</title>
     <meta name="description" content="" />
   </head>
   <body>
-    <div class="title_bar container">福島立図書館</div>
-    <nav class="container height_m">
-      <ul id="global_menu" class="flex_row impact white">
-        <li class="navi_button">menu1</li>
-        <li class="navi_button">menu2</li>
-        <li class="navi_button">menu4</li>
-      </ul>
-    </nav>
-    <section class="container height_l white">
-      <h1 class="h_layout h_color">福島県立図書館</h1>
-      <p class="container_m">
-        test
-        <input type="button" value="add" onclick="addButton()" />
-        <input type="button" value="remove" onclick="removeButton()" />
-      </p>
-      <h2 class="h_layout h_color">中見出し</h2>
-      <section class="container_s">
-        <h3 class="h_layout h_color">小見出し</h3>
-      </section>
-    </section>
-    <footer></footer>
+    <header>
+      <div class="c-header">
+        <a href="">
+          <img class="c-header__logo" />logo
+          <h1 class="c-header__text">title</h1>
+        </a>
+        <nav>
+          <ul class="c-header__global-menu">
+            <li class="c-header__global-menu__button">button</li>
+            <li class="c-header__global-menu__button">button</li>
+            <li class="c-header__global-menu__button">button</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <article class="article-block">
+        <h1 class="article-block__title">main</h1>
+        <p class="article-block__paragraph">
+          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        </p>
+        <section class="article-block__sub-block">
+          <h2 class="article-block__sub-block__title">sub_title</h2>
+          <p class="article-block__sub-block__paragraph">
+            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </p>
+        </section>
+        <section class="article-block__sub-block">
+          <h2 class="article-block__sub-block__title">sub_title</h2>
+          <p class="article-block__sub-block__paragraph">
+            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </p>
+        </section>
+        <aside class="article-block__profile">
+          <img class="article-block__profile__profile-img">
+          <p class="article-block__profile-text">
+            1985年生まれ　福島県在住
+          </p>
+        </aside>
+    </main>
+    <footer><small>© 組織名（Co. Ltd.） 発行年数</small></footer>
     <script type="text/javascript" src="./js/base.js"></script>
   </body>
 </html>
