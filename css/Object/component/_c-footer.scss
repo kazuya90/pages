@@ -1,0 +1,12 @@
+.c-footer {
+  height: 100px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  border-top: $color-accent 10px solid;
+  &__text {
+    color: $color-base;
+    margin: 0 auto;
+    font-weight: bold;
+  }
+}

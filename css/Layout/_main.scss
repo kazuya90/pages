@@ -1,5 +1,7 @@
 main {
+  width: 100%;
+  max-width: $max-width;
+  min-width: $min-width;
   background-color: $color-base;
   margin: 0 auto;
-  max-width: 900px;
 }

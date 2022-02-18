@@ -2,11 +2,14 @@
 /*foundation*/
 @import "foundation/_base";
 @import "foundation/_color";
+@import "foundation/_size";
+@import "foundation/_reset";
 /*layout*/
 @import "layout/_header";
 @import "layout/_main";
 @import "layout/_footer";
 /*object*/
-@import "object/_component";
-@import "object/_project";
-@import "object/_utility";
+@import "object/component/_c-header";
+@import "object/component/_c-article";
+@import "object/component/_c-relation";
+@import "object/component/_c-footer";

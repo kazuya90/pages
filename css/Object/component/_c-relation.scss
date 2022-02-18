@@ -1,0 +1,40 @@
+.c-relation {
+  background-color: $color-main-300;
+  padding-bottom: 2rem;
+  &__title {
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  &__card {
+    max-width: $max-width;
+    min-width: $min-width;
+    background-color: $color-gray;
+    margin: 0 auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: white 5px solid;
+    &:nth-child(odd) {
+      display: flex;
+      background-color: $color-main-200;
+      flex-direction: row-reverse;
+    }
+    &__img {
+      height: 10rem;
+      width: 18rem;
+      img {
+        height: 100%;
+      }
+    }
+    &__paragraph {
+      margin: 0 auto;
+      font-weight: bold;
+      font-size: 1.8rem;
+      white-space: nowrap;
+    }
+  }
+}

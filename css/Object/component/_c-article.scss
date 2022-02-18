@@ -1,0 +1,73 @@
+.c-article {
+  &__section {
+    margin-bottom: 5rem;
+    &__img {
+      text-align: center;
+    }
+    &__paragraph {
+      padding: 1rem;
+    }
+    &__thema {
+      width: 100%;
+      height: 4rem;
+      background-color: $color-main-200;
+      display: flex;
+      align-items: center;
+      border-left: 1rem solid $color-accent;
+      margin-bottom: 2rem;
+      &__text {
+        font-size: 2rem;
+        margin-left: 1rem;
+        font-weight: bold;
+      }
+    }
+    &__sub-thema {
+      width: 100%;
+      height: 4rem;
+      border-bottom: 0.5rem $color-accent solid;
+      display: flex;
+      align-items: center;
+      &__text {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        font-weight: bold;
+      }
+    }
+    &__result {
+      height: 3rem;
+      background-color: $color-main-200;
+      display: flex;
+      align-items: center;
+      &__text {
+        font-weight: bold;
+        font-size: 2rem;
+        color: $color-black;
+        margin-left: 2rem;
+      }
+    }
+    &__blockquote {
+      margin: 1rem;
+      background-color: $color-gray;
+    }
+  }
+  &__profile {
+    width: 100%;
+    border: 3px $color-base dotted;
+    background-color: gray;
+    padding: 0.5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    &__container {
+      text-align: center;
+      &__name {
+        font-weight: bold;
+      }
+    }
+    &__paragraph {
+      background-color: white;
+      width: 100%;
+      padding: 1rem;
+      margin-right: 3rem;
+    }
+  }
+}
