@@ -470,6 +470,9 @@ footer {
 
 .c-header__link__logo {
   height: 100%;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
 }
 
 .c-header__link__text {
@@ -809,16 +812,19 @@ footer {
   padding: 0.2rem;
 }
 
-.c-footer__sns__link:hover {
-  opacity: 0.6;
+.c-footer__sns__link__img {
+  height: 100%;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
 }
 
 .c-footer__sns__link:last-child {
   margin-right: 1rem;
 }
 
-.c-footer__sns__link__img {
-  height: 100%;
+.c-footer__sns__link:hover {
+  opacity: 0.6;
 }
 
 .c-footer__text {
