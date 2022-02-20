@@ -571,6 +571,7 @@ footer {
   padding: 2rem;
   font-weight: bold;
   font-size: 1.2rem;
+  width: 100%;
 }
 
 .c-article__nav__text:last-child {
@@ -578,11 +579,11 @@ footer {
 }
 
 .c-article__nav__text::before {
-  content: "------------";
+  content: "---";
 }
 
 .c-article__nav__text::after {
-  content: "------------";
+  content: "---";
 }
 
 .c-article__section {
@@ -619,6 +620,7 @@ footer {
           align-items: center;
   border-left: 1rem solid #ffc042;
   margin-bottom: 2rem;
+  white-space: nowrap;
 }
 
 .c-article__section__thema__text {

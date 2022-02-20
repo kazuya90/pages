@@ -15,14 +15,15 @@
       padding: 2rem;
       font-weight: bold;
       font-size: 1.2rem;
+      width: 100%;
       &:last-child {
         padding-bottom: 4rem;
       }
       &::before {
-        content: "------------";
+        content: "---";
       }
       &::after {
-        content: "------------";
+        content: "---";
       }
     }
   }
@@ -46,6 +47,7 @@
       align-items: center;
       border-left: 1rem solid $color-accent;
       margin-bottom: 2rem;
+      white-space: nowrap;
       &__text {
         font-size: 2rem;
         margin-left: 1rem;
