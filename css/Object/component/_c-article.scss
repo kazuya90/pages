@@ -32,13 +32,16 @@
       font-weight: bold;
       font-size: 1.2rem;
       width: 100%;
+      white-space: nowrap;
       &:last-child {
         padding-bottom: 4rem;
       }
       &::before {
+        white-space: nowrap;
         content: "---";
       }
       &::after {
+        white-space: nowrap;
         content: "---";
       }
     }
