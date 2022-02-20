@@ -1,11 +1,29 @@
 .c-article {
   background-color: white;
   &__nav {
-    background-color: $color-main-200;
+    background-color: $color-gray;
     margin: 0 auto;
     width: 90%;
+    text-align: center;
+    border: 5px $color-black solid;
+    &__title {
+      padding: 2rem;
+      font-size: 2rem;
+      font-weight: bold;
+    }
     &__text {
-      padding: 1rem;
+      padding: 2rem;
+      font-weight: bold;
+      font-size: 1.2rem;
+      &:last-child {
+        padding-bottom: 4rem;
+      }
+      &::before {
+        content: "------------";
+      }
+      &::after {
+        content: "------------";
+      }
     }
   }
   &__section {

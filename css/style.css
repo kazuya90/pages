@@ -554,13 +554,35 @@ footer {
 }
 
 .c-article__nav {
-  background-color: #a0daa8;
+  background-color: #efefef;
   margin: 0 auto;
   width: 90%;
+  text-align: center;
+  border: 5px #333 solid;
+}
+
+.c-article__nav__title {
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .c-article__nav__text {
-  padding: 1rem;
+  padding: 2rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.c-article__nav__text:last-child {
+  padding-bottom: 4rem;
+}
+
+.c-article__nav__text::before {
+  content: "------------";
+}
+
+.c-article__nav__text::after {
+  content: "------------";
 }
 
 .c-article__section {
