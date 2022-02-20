@@ -427,8 +427,8 @@ header {
 
 main {
   width: 100%;
-  max-width: 1024px;
-  min-width: 200px;
+  max-width: 900px;
+  min-width: 400px;
   margin: 0 auto;
 }
 
@@ -437,7 +437,7 @@ footer {
   background-color: #1b7c26;
   margin: 0 auto;
   border-top: #ffc042 10px solid;
-  min-width: 200px;
+  min-width: 400px;
 }
 
 /*object*/
@@ -716,8 +716,8 @@ footer {
 }
 
 .c-relation__card {
-  max-width: 1024px;
-  min-width: 200px;
+  max-width: 900px;
+  min-width: 400px;
   background-color: #efefef;
   margin: 0 auto;
   display: -webkit-box;
@@ -781,7 +781,7 @@ footer {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 1024px;
+  max-width: 900px;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
