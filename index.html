@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
@@ -10,7 +10,7 @@
     <header>
       <div class="c-header">
         <a class="c-header__link">
-          <img src="img/logo.png" class="c-header__link__logo" />
+          <img alt="ロゴ" src="img/logo.png" class="c-header__link__logo" />
           <h1 class="c-header__link__text">HTML学習サイト</h1>
         </a>
         <nav class="c-header__global-menu">
@@ -26,13 +26,13 @@
       <article class="c-article">
         <section class="c-article__section">
           <div class="c-article__section__img">
-            <img src="img/page_image_child.png" />
+            <img alt="パソコンを操作する子供" src="img/page_image_child.png" />
           </div>
           <h1 class="c-article__section__thema">
-            <p class="c-article__section__thema__text">コンテンツモデルとは</p>
+            <a class="c-article__section__thema__text">コンテンツモデルとは</a>
           </h1>
           <ol class="c-article__nav">
-            <h1 class="c-article__nav__title">目次</h1>
+            <li class="c-article__nav__title">目次</li>
             <li class="c-article__nav__text">
               <a href="#s1">フローコンテンツ</a>
             </li>
@@ -133,17 +133,15 @@
           <div class="c-article__profile__container">
             <h1 class="c-article__profile__container__name">プロフィール</h1>
             <img
+              alt="立っている男性"
               src="img/profile_1.png"
               class="article__profile__profile-img"
             />
           </div>
           <ul class="c-article__profile__paragraph">
             <li>弓田和也</li>
-            <br />
             <li>1985年生まれ</li>
-            <br />
             <li>福島県在住</li>
-            <br />
             <li>趣味：音楽鑑賞 読書</li>
           </ul>
         </aside>
@@ -151,42 +149,50 @@
     </main>
     <aside class="c-relation">
       <h1 class="c-relation__title">関連記事</h1>
-      <section class="c-relation__card">
+      <div class="c-relation__card">
         <div class="c-relation__card__img">
-          <img src="img/page_image_security.png" />
+          <img alt="セキュリティイメージ" src="img/page_image_security.png" />
         </div>
         <p class="c-relation__card__paragraph">セキュリティとは</p>
-      </section>
-      <section class="c-relation__card">
+      </div>
+      <div class="c-relation__card">
         <div class="c-relation__card__img">
-          <img src="img/page_image_book.png" />
+          <img alt="技術書" src="img/page_image_book.png" />
         </div>
         <p class="c-relation__card__paragraph">Webを学ぶおすすめ本10選</p>
-      </section>
-      <section class="c-relation__card">
+      </div>
+      <div class="c-relation__card">
         <div class="c-relation__card__img">
-          <img src="img/page_image_smartphone.png" />
+          <img alt="スマートフォン" src="img/page_image_smartphone.png" />
         </div>
         <p class="c-relation__card__paragraph">
           レスポンシブなサイトの作り方！
         </p>
-      </section>
-      <section class="c-relation__card">
+      </div>
+      <div class="c-relation__card">
         <div class="c-relation__card__img">
-          <img src="img/page_image_cloud.png" />
+          <img alt="クラウドイメージ" src="img/page_image_cloud.png" />
         </div>
         <p class="c-relation__card__paragraph">クラウドとは？</p>
-      </section>
+      </div>
     </aside>
     <footer>
       <div class="c-footer">
         <small class="c-footer__text">Copyright 弓田和也 2022</small>
         <div class="c-footer__sns">
           <a class="c-footer__sns__link"
-            ><img class="c-footer__sns__link__img" src="img/twitter.png" />
+            ><img
+              alt="ツイッターアイコン"
+              class="c-footer__sns__link__img"
+              src="img/twitter.png"
+            />
           </a>
           <a class="c-footer__sns__link"
-            ><img class="c-footer__sns__link__img" src="img/youtube_logo.png" />
+            ><img
+              alt="ユーチューブアイコン"
+              class="c-footer__sns__link__img"
+              src="img/youtube_logo.png"
+            />
           </a>
         </div>
       </div>
