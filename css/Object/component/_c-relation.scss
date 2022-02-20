@@ -18,6 +18,11 @@
     margin-bottom: 2rem;
     padding: 1rem;
     border: white 5px solid;
+    user-select: none;
+    &:hover {
+      opacity: 0.8;
+      transform: scale(1.01);
+    }
     &:nth-child(odd) {
       display: flex;
       background-color: $color-main-200;

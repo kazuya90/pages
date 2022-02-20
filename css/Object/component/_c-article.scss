@@ -1,11 +1,24 @@
 .c-article {
+  background-color: white;
+  &__nav {
+    background-color: $color-main-200;
+    margin: 0 auto;
+    width: 90%;
+    &__text {
+      padding: 1rem;
+    }
+  }
   &__section {
     margin-bottom: 5rem;
     &__img {
+      user-select: none;
       text-align: center;
     }
     &__paragraph {
       padding: 1rem;
+      @include fz_vw(16);
+      margin: 0 auto;
+      max-width: 800px;
     }
     &__thema {
       width: 100%;
@@ -68,6 +81,7 @@
       width: 100%;
       padding: 1rem;
       margin-right: 3rem;
+      @include fz_vw(16);
     }
   }
 }

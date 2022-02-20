@@ -1,9 +1,10 @@
 @charset "utf-8";
 /*foundation*/
-@import "foundation/_base";
 @import "foundation/_color";
+@import "foundation/_base";
 @import "foundation/_size";
 @import "foundation/_reset";
+@import "foundation/_mixin";
 /*layout*/
 @import "layout/_header";
 @import "layout/_main";
@@ -13,3 +14,4 @@
 @import "object/component/_c-article";
 @import "object/component/_c-relation";
 @import "object/component/_c-footer";
+@import "object/_utility";

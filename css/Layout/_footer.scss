@@ -2,4 +2,6 @@ footer {
   width: 100%;
   background-color: $color-main;
   margin: 0 auto;
+  border-top: $color-accent 10px solid;
+  min-width: $min-width;
 }

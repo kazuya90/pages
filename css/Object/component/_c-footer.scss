@@ -1,12 +1,37 @@
 .c-footer {
+  position: relative;
   height: 100px;
-  margin: 0 auto;
   padding: 1rem;
   display: flex;
-  border-top: $color-accent 10px solid;
+  max-width: $max-width;
+  justify-content: flex-end;
+  margin: 0 auto;
+  &__sns {
+    height: 100%;
+    display: flex;
+    user-select: none;
+    &__link {
+      margin-right: 1rem;
+      background-color: white;
+      height: 50%;
+      padding: 0.2rem;
+      &:hover {
+        opacity: 0.6;
+      }
+      &:last-child {
+        margin-right: 1rem;
+      }
+      &__img {
+        height: 100%;
+      }
+    }
+  }
   &__text {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
     color: $color-base;
-    margin: 0 auto;
+    margin: auto;
     font-weight: bold;
   }
 }
