@@ -1,14 +1,17 @@
 "use strict";
 
-function addButton() {
-  let element = document.getElementById("global_menu");
-  let button = document.createElement("li");
-  button.add;
-  element.append(button[0]);
-}
+Vue.component("my-tag", {
+  props: ["text"],
+  template: "<div class='c-article__tag__text'>{{text}}</div>",
+});
 
-function removeButton3() {
-  let element = document.getElementById("global_menu");
-  let button = document.getElementsByTagName("li");
-  button[button.length - 1].remove();
-}
+var v = new Vue({
+  el: "#app",
+  data: {
+    items: [
+      { key: 1, value: "test" },
+      { key: 2, value: "check" },
+      { key: 2, value: "hello" },
+    ],
+  },
+});

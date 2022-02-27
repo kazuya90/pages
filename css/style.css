@@ -500,7 +500,7 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   margin-left: auto;
-  margin-right: 1rem;
+  margin-right: 3rem;
 }
 
 .c-header__global-menu__list {
@@ -521,7 +521,7 @@ footer {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  width: 5rem;
+  width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -533,6 +533,7 @@ footer {
   background-color: #a0daa8;
   height: 100%;
   text-align: center;
+  padding: 0 0.5rem;
   border-width: 2px 2px 2px 0px;
   border-radius: 0%;
   -webkit-box-align: center;
@@ -580,6 +581,32 @@ footer {
   font-weight: bold;
 }
 
+.c-article__tag {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.2rem 1rem;
+  background-color: #efefef;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.c-article__tag__text {
+  font-weight: bold;
+}
+
 .c-article__nav {
   background-color: #efefef;
   margin: 0 auto;
@@ -599,6 +626,7 @@ footer {
   font-weight: bold;
   font-size: 1.2rem;
   width: 100%;
+  white-space: nowrap;
 }
 
 .c-article__nav__text:last-child {
@@ -606,10 +634,12 @@ footer {
 }
 
 .c-article__nav__text::before {
+  white-space: nowrap;
   content: "---";
 }
 
 .c-article__nav__text::after {
+  white-space: nowrap;
   content: "---";
 }
 
@@ -837,11 +867,33 @@ footer {
   font-weight: bold;
 }
 
+/*utilitie*/
 .u-trim-right {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 0 0;
      object-position: 0 0;
   width: 90px;
+}
+
+.u-icon-computer:before {
+  font-family: "Material Icons";
+  content: "\e30a";
+  margin-right: 0.25rem;
+  font-size: x-large;
+}
+
+.u-icon-history:before {
+  font-family: "Material Icons";
+  content: "\e889";
+  margin-right: 0.25rem;
+  font-size: x-large;
+}
+
+.u-icon-book:before {
+  font-family: "Material Icons";
+  content: "\ea19";
+  margin-right: 0.25rem;
+  font-size: x-large;
 }
 /*# sourceMappingURL=style.css.map */

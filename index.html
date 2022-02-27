@@ -5,6 +5,10 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <title>HTML学習サイト</title>
     <meta name="description" content="html学習サイト" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -15,9 +19,15 @@
         </a>
         <nav class="c-header__global-menu">
           <ul class="c-header__global-menu__list">
-            <li class="c-header__global-menu__list__button">about</li>
-            <li class="c-header__global-menu__list__button">更新履歴</li>
-            <li class="c-header__global-menu__list__button">サイトマップ</li>
+            <li class="c-header__global-menu__list__button u-icon-computer">
+              about
+            </li>
+            <li class="c-header__global-menu__list__button u-icon-history">
+              更新履歴
+            </li>
+            <li class="c-header__global-menu__list__button u-icon-book">
+              サイトマップ
+            </li>
           </ul>
         </nav>
       </div>
@@ -26,6 +36,11 @@
       <article class="c-article">
         <div class="c-article__section__img">
           <img alt="パソコンを操作する子供" src="img/page_image_child.png" />
+        </div>
+        <div id="app">
+          <div class="c-article__tag">
+            <my-tag v-for="item in items" v-bind:text="item.value"></my-tag>
+          </div>
         </div>
         <h1 class="c-article__thema">
           <a class="c-article__thema__text">コンテンツモデルとは</a>
@@ -197,6 +212,7 @@
         </div>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script type="text/javascript" src="./js/base.js"></script>
   </body>
 </html>
